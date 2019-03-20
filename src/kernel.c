@@ -5,6 +5,6 @@
 void kmain()
 {
 	terminal_initialize();
-	terminal_writestring("Hello, to Meluleki's Kernel!\n");
+	terminal_writestring("Hello, World.\nWelcome to Meluleki's Kernel!\n");
 	fb_move_cursor(0);
 }

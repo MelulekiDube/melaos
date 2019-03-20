@@ -9,6 +9,7 @@
 * @param data The data to send to the I/O port
 */
 extern void outb(unsigned short port, unsigned char data);
+extern int inb(unsigned short com);
 
 uint8_t make_color(uint8_t fg, uint8_t bg);
 uint8_t make_color(uint8_t fg, uint8_t bg);
